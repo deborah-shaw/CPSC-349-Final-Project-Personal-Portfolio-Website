@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Deborah Shaw: Personal Website</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Deborah Shaw</h1>
+        <p class="tagline">Software Engineer | Front-End Developer | Lifelong Learner</p>
+    </header>
+    <hr />
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="current">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div id="content">
+        <div>
+            <nav class="project-name">
+            <a href="project1.html">Semantic Web</a>
+            <a href="project2.html" class="current-proj">Recipe Explorer</a>
+            <a href="project3.html">Movie Rating Service</a>
+            </nav>
+            <br /><br />
+                <a href="https://github.com/mkt989/CPSC-449-Final-Project" style="text-decoration: none;" target="_blank">
+                    <img src="img/recipe1.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/recipe2.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/recipe3.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <br /><br />
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    View on GitHub
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                </a><br /><br />
+                <div>
+                    <h3>Overview:</h3>
+                    <div class="project-paragraph">This Recipe Search App allows users to discover and explore recipes based on selected ingredients and preferred cuisines. 
+                        It fetches real-time recipe data from a public API, offering dynamic filtering and detailed recipe information, including ingredients, steps, and nutritional details. 
+                        The app includes secure user registration and login features, allowing users to save their favorite recipes.
+                    </div>
+                    <h3>Key Features:</h3><br />
+                        <ul class="padded-list">
+                            <li>Search recipes by filtering ingredients and cuisine types.</li>
+                            <li>Responsive design for usability on mobile and desktop devices.</li>
+                            <li>Secure user authentication using JWT and session management.</li>
+                            <li>User registration with password hashing via bcrypt and werkzeug.security.</li>
+                            <li>Ability to save and revisit favorite recipes for registered users.</li>
+                            <li>Interactive UI built with HTML/CSS, styled for readability and ease of use.</li>
+                        </ul>
+                    <h3>Technologies Used:</h3><br />
+                        <ul class="padded-list">
+                            <li>Frontend: HTML5, CSS3</li>
+                            <li>Backend: Flask, Python, SQLAlchemy</li>
+                            <li>Database: MySQL (via MySQL Workbench, mysqlclient, pymysql)</li>
+                            <li>Authentication & Security: PyJWT, bcrypt, werkzeug.security, Flask sessions</li>
+                            <li>Environment & Config: python-dotenv</li>
+                            <li>HTTP Requests: requests library</li>
+                            <li>API: Integration with a public recipe API</li>
+                        </ul>
+                    <h3>Challenges Faced:</h3><br />
+                        <ul class="padded-list">
+                            <li>Parsing complex nested JSON from the recipe API and presenting it cleanly.</li>
+                            <li>Managing secure user sessions and token-based authentication (JWT).</li>
+                            <li>Implementing dynamic search filters without compromising performance.</li>
+                            <li>Ensuring compatibility across devices through responsive design.</li>
+                            <li>Handling database relationships for storing user preferences and recipe data.</li>
+                        </ul>
+                    <h3>Outcome:</h3>
+                    <div class="project-paragraph">The project resulted in a functional, secure, and user-friendly web application that bridges API data with database-driven user experiences. 
+                        It demonstrates full-stack development skills, secure coding practices, and thoughtful UI/UX design. 
+                        It serves as a solid foundation for more advanced food discovery tools or meal planning platforms.
+                    </div>
+                </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <hr>
+        <p>CPSC349 Web Front-End Engineering. 2025 &copy; Shaw</p>
+        <p><strong>Disclaimer:</strong> This webpage is for academic purposes only.</p>
+        <figure>
+            <img src="img/csuf-logo-round.png" alt="CSUF round logo" style="max-width: 100px;"><br />
+            <img src="img/csuf-logo-word1.png" alt="CSUF word logo" style="max-width: 100px;">
+        </figure>
+    </footer>
+    <br /><br />
+</body>
+</html>

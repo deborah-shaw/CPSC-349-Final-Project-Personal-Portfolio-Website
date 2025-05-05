@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Deborah Shaw: Personal Website</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Deborah Shaw</h1>
+        <p class="tagline">Software Engineer | Front-End Developer | Lifelong Learner</p>
+    </header>
+    <hr />
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="current">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div id="content">
+        <div>
+            <nav class="project-name">
+            <a href="project1.html">Semantic Web</a>
+            <a href="project2.html">Recipe Explorer</a>
+            <a href="project3.html" class="current-proj">Movie Rating Service</a>
+            </nav>
+            <br /><br />
+                <a href="https://github.com/3374128044/Movie-Ratings-Service" style="text-decoration: none;" target="_blank">
+                    <img src="img/movie1.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/movie2.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/movie3.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <br /><br />
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    View on GitHub
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                </a><br /><br />
+                <div>
+                    <h3>Overview:</h3>
+                    <div class="project-paragraph">The Movie Ratings Service is a RESTful API that allows users to sign up, log in, and submit ratings for movies. 
+                        It includes role-based access control where regular users can rate movies and view ratings, while administrators can manage movie data but are restricted from submitting ratings. 
+                        JWT-based authentication ensures secure and stateless login sessions. 
+                        The API also supports file uploads for movie-related assets (such as posters), with validation to accept only specific file formats.
+                    </div>
+                    <h3>Key Features:</h3><br />
+                        <ul class="padded-list">
+                            <li>User registration and login with secure password handling.</li>
+                            <li>Role-based access (users vs. admins).</li>
+                            <li>JWT (JSON Web Token) authentication for protected endpoints.</li>
+                            <li>CRUD operations for movie ratings (Create, Read, Update, Delete).</li>
+                            <li>Admin-only endpoints to manage the movie database.</li>
+                            <li>File upload feature with extension validation (e.g., JPG, PNG).</li>
+                            <li>RESTful API design, well-structured and documented.</li>
+                        </ul>
+                    <h3>Technologies Used:</h3><br />
+                        <ul class="padded-list">
+                            <li>Backend Framework: Flask</li>
+                            <li>Authentication & Security: JWT (PyJWT), bcrypt, werkzeug.security</li>
+                            <li>Database: SQLAlchemy ORM with SQLite or MySQL (configurable)</li>
+                            <li>Environment Management: Python Virtual Environments, .env files</li>
+                            <li>File Uploads: Flask's built-in file handling with extension filtering</li>
+                            <li>Development Tools: Postman for API testing, Git for version control</li>
+                        </ul>
+                    <h3>Challenges Faced:</h3><br />
+                        <ul class="padded-list">
+                            <li>Implementing secure and stateless authentication using JWT.</li>
+                            <li>Enforcing role-based access control with clear permission boundaries.</li>
+                            <li>Safely handling file uploads to prevent abuse or invalid data.</li>
+                            <li>Managing token expiration and refresh logic.</li>
+                            <li>Designing intuitive and consistent REST endpoints for scalability.</li>
+                        </ul>
+                    <h3>Outcome:</h3>
+                    <div class="project-paragraph">The project resulted in a secure, scalable, and well-documented API service that can be used in full-stack movie review platforms or integrated into frontend clients. 
+                        It demonstrates proficiency in authentication, REST architecture, and backend development best practices. The service is suitable for learning, personal use, 
+                        or as a foundation for production-level systems with further enhancements like pagination, advanced search, and analytics.
+                    </div>
+                </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <hr>
+        <p>CPSC349 Web Front-End Engineering. 2025 &copy; Shaw</p>
+        <p><strong>Disclaimer:</strong> This webpage is for academic purposes only.</p>
+        <figure>
+            <img src="img/csuf-logo-round.png" alt="CSUF round logo" style="max-width: 100px;"><br />
+            <img src="img/csuf-logo-word1.png" alt="CSUF word logo" style="max-width: 100px;">
+        </figure>
+    </footer>
+    <br /><br />
+</body>
+</html>

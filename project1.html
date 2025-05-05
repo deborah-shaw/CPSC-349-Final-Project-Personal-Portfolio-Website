@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Deborah Shaw: Personal Website</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Deborah Shaw</h1>
+        <p class="tagline">Software Engineer | Front-End Developer | Lifelong Learner</p>
+    </header>
+    <hr />
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="current">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div id="content">
+        <div>
+            <nav class="project-name">
+            <a href="project1.html" class="current-proj">Semantic Web</a>
+            <a href="project2.html">Recipe Explorer</a>
+            <a href="project3.html">Movie Rating Service</a>
+            </nav>
+            <br /><br />
+                <a href="https://github.com/mkt989/CPSC-583-Semantic-Web-Project" style="text-decoration: none;" target="_blank">
+                    <img src="img/semweb1.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/semweb2.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <img src="img/semweb3.jpg" alt="Image of Semantic Web" style="height:200px; border-radius: 30px;">
+                    <br /><br />
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+                    View on GitHub
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                    <img src="img/github2.png" alt="Image of Github Logo" style="height:25px">
+				    <img src="img/github1.png" alt="Image of Github Logo" style="height:25px">
+                </a><br /><br />
+                <div>
+                    <h3>Overview:</h3>
+                    <div class="project-paragraph">Semantic Web Explorer is an interactive visualization tool designed to help users explore and understand RDF (Resource Description Framework) data. 
+                        It provides an intuitive interface for querying, navigating, and discovering relationships between web resources using SPARQL, the query language for semantic data.
+                    </div>
+                    <h3>Key Features:</h3>
+                        <ul class="padded-list">
+                            <li>Visualizes RDF triples as connected nodes and relationships.</li>
+                            <li>Accepts custom SPARQL queries to dynamically filter or highlight specific data points.</li>
+                            <li>Provides detailed information panels for each selected resource.</li>
+                            <li>Supports loading local or remote RDF datasets via endpoints.</li>
+                            <li>Integrates with Expedia: after identifying a filming location from the dataset, users can be redirected to Expedia to book a hotel nearby.</li>
+                        </ul>
+                    <h3>Technologies Used:</h3>
+                        <ul class="padded-list">
+                            <li>Frontend: HTML5, CSS3, JavaScript, D3.js (for data visualization)</li>
+                            <li>Backend/Data Layer: SPARQL, RDF, JSON-LD</li>
+                            <li>Tools & Libraries: Apache Jena Fuseki (SPARQL endpoint), RDFLib</li>
+                        </ul>
+                    <h3>Challenges Faced:</h3>
+                        <ul class="padded-list">
+                            <li>Designing a clean interface that can scale for complex data graphs.</li>
+                            <li>Handling large datasets while maintaining performance and responsiveness.</li>
+                            <li>Ensuring compatibility across various RDF formats and SPARQL endpoints.</li>
+                        </ul>
+                    <h3>Outcome:</h3>
+                    <div class="project-paragraph">The project showcases how semantic web data can be made interactive and user-friendly. 
+                        It demonstrates practical applications of Linked Data and serves as a foundation for building more advanced data exploration tools with real-world integrations.
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    <br>
+    <footer>
+        <hr>
+        <p>CPSC349 Web Front-End Engineering. 2025 &copy; Shaw</p>
+        <p><strong>Disclaimer:</strong> This webpage is for academic purposes only.</p>
+        <figure>
+            <img src="img/csuf-logo-round.png" alt="CSUF round logo" style="max-width: 100px;"><br />
+            <img src="img/csuf-logo-word1.png" alt="CSUF word logo" style="max-width: 100px;">
+        </figure>
+    </footer>
+    <br /><br />
+</body>
+</html>
