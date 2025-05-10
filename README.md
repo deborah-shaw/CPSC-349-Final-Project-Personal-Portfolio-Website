@@ -13,13 +13,13 @@ This responsive, multi-page website was built using HTML5, CSS3, and JavaScript.
 - A clean, consistent navigation bar across all pages.
 - Academic branding elements related to California State University, Fullerton.
 
-## Features
+## 🚀 Features
 
 - **Responsive design** with CSS3 media queries to support multiple screen sizes.
 - **Interactive form inputs** using JavaScript for a dynamic user experience.
 - **API integration** to fetch U.S. state, city, and county data.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Languages:** JavaScript, Python, Java
 - **Web Development:** HTML5, CSS3, Tailwind CSS, React.js, Node.js
@@ -27,7 +27,7 @@ This responsive, multi-page website was built using HTML5, CSS3, and JavaScript.
 - **Tools & Platforms:** Git, GitHub, VS Code, Postman
 - **Other:** REST APIs, Responsive Design, Debugging, Agile/Scrum
 
-## JavaScript Functionality
+## ⚡ JavaScript Functionality
 
 The project includes a custom JavaScript file that adds interactivity and dynamic data fetching via external APIs:
 
