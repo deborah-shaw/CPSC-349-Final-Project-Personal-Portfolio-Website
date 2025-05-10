@@ -13,31 +13,51 @@ This responsive, multi-page website was built using HTML5, CSS3, and JavaScript.
 - A clean, consistent navigation bar across all pages.
 - Academic branding elements related to California State University, Fullerton.
 
+## Features
+
+- **Responsive design** with CSS3 media queries to support multiple screen sizes.
+- **Interactive form inputs** using JavaScript for a dynamic user experience.
+- **API integration** to fetch U.S. state, city, and county data.
+
+## Technologies Used
+
+- **Languages:** JavaScript, Python, Java
+- **Web Development:** HTML5, CSS3, Tailwind CSS, React.js, Node.js
+- **Databases:** MySQL, MongoDB
+- **Tools & Platforms:** Git, GitHub, VS Code, Postman
+- **Other:** REST APIs, Responsive Design, Debugging, Agile/Scrum
+
+## JavaScript Functionality
+
+The project includes a custom JavaScript file that adds interactivity and dynamic data fetching via external APIs:
+
+- **`displayStates()`**: Automatically populates the state dropdown menu with all U.S. states when the page loads.
+- **`displayCity()`**: When a user enters a ZIP code, the app fetches and displays the corresponding city, latitude, and longitude.
+- **`displayCounties()`**: Upon selecting a state, the app fetches and displays all counties within that state based on its USPS abbreviation.
+
+All data interactions are handled asynchronously using the `fetch()` API and `async/await` syntax for clean, efficient execution.
+
 ## 📁 Project Structure
 
 ```
-project-root/
+project-folder/
 │
-├── index.html             # Homepage
-├── about.html             # About page
-├── contact.html           # Contact page
-├── projects.html          # Project gallery overview
-├── project1.html          # Semantic Web project
-├── project2.html          # Recipe Explorer project
-├── project3.html          # Movie Rating Service project
-├── skills.html            # Skills summary
+├── index.html
+├── about.html
+├── contact.html
+├── projects.html
+├── skills.html
 │
 ├── css/
-│   └── styles.css         # Main stylesheet
+│   └── style.css
+│
+├── js/
+│   └── script.js
 │
 ├── img/
-│   ├── student.png
-│   ├── csuf-logo-round.png
-│   ├── csuf-logo-word1.png
-│   ├── semweb1.jpg, semweb2.jpg, semweb3.jpg
-│   ├── recipe1.jpg, recipe2.jpg, recipe3.jpg
-│   ├── movie1.jpg
-│   └── github1.png, github2.png
+│   └── (images used in the project)
+│
+└── README.md
 ```
 
 ## 🚀 Featured Projects
@@ -51,13 +71,6 @@ A recipe discovery app with ingredient and cuisine filtering, user authenticatio
 ### 🔹 [Movie Rating Service](project3.html)
 A real-time movie rating site leveraging MongoDB and dynamic front-end rendering. Allows users to browse, rate, and review movies interactively.
 
-## 🛠️ Technologies Used
-
-- **Languages:** HTML5, CSS3, JavaScript
-- **Frameworks/Libraries:** D3.js, Flask, RDFLib
-- **Tools:** Apache Jena Fuseki, JSON-LD, bcrypt
-- **Other:** Responsive design, SPA structure for project pages
-
 ## 🎓 Academic Context
 
 This website was created as part of the coursework for **CPSC 349 - Web Front-End Engineering** at **California State University, Fullerton (CSUF)**. It demonstrates skills in front-end development, project documentation, and personal branding through code.
@@ -70,4 +83,4 @@ Want to collaborate or say hi? Visit the [Contact Page](contact.html) or connect
 
 ---
 
-© 2025 Deborah Shaw
+©2025 Deborah Shaw
