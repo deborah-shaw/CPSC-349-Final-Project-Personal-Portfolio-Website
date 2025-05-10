@@ -77,9 +77,15 @@ This website was created as part of the coursework for **CPSC 349 - Web Front-En
 
 > **Disclaimer:** This project is for academic purposes only.
 
+## 🏃‍♂️ How to Use
+
+1. Clone or download the repo.
+2. Open `index.html` in any web browser.
+3. Ensure you have an internet connection to access the APIs.
+
 ## 📫 Contact
 
-Want to collaborate or say hi? Visit the [Contact Page](contact.html) or connect via GitHub.
+Want to collaborate or say hi? Visit the [Contact Page](https://mkt989.github.io/CPSC-349-Final-Project-Personal-Portfolio-Website/contact.html) or connect via GitHub.
 
 ---
 
